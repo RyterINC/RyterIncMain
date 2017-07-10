@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Assignment 6 KML</title>
+    <link href="css/grayscale.css" rel="stylesheet" />
+    <script src="js/Assignments.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
+    </script>
+
+</head>
+<body class="Site-color" onload="display_kmlmap()">
+
+    <h1 class="Assign6-header">Assignment 6 KML</h1>
+    <br>
+    <div class="linkHome">
+        <a href="index.html">Back to main site</a>
+    </div>
+    <br>
+    <br>
+
+    <div class="assign6-text">This is a map that is being loaded via a KML file. The location for my map points to the Statue of Zeus in Olympia Greece. Underneath, is the code that makes up the KML map</div>
+    <br>
+    <br>
+    
+    <div class="map-style" id="map_canvas" style="width:500px; height:400px;">
+    </div>
+    <!--*****************************************************************************************************************************-->
+    <div>
+        <xmp> 
+
+            <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<document>
+            <name>StatueOfZeus(2).kml</name>
+            <style id="s_ylw-pushpin_hl">
+                <IconStyle > <scale > 1.3</scale > <Icon > <href > http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href > </Icon > <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ > </IconStyle >
+</style>
+            <stylemap id="m_ylw-pushpin">
+            <pair>
+            <key>normal</key>
+            <styleurl>#s_ylw-pushpin</styleurl>
+		</pair>
+            <pair>
+            <key>highlight</key>
+            <styleurl>#s_ylw-pushpin_hl</styleurl>
+		</pair>
+	</stylemap>
+            <style id="s_ylw-pushpin">
+                <IconStyle > <scale > 1.1</scale > <Icon > <href > http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href > </Icon > <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/ > </IconStyle >
+</style>
+            <placemark>
+            <name>one of the seven wonders of the world</name>
+            <lookat>
+            <longitude>21.63038385710889</longitude>
+            <latitude>37.63767082832465</latitude>
+            <altitude>0</altitude>
+            <heading>-2.103730185733821e-010</heading>
+            <tilt>0</tilt>
+            <range>250.5564396035039</range>
+            <gx:altitudemode>relativeToSeaFloor</gx:altitudemode>
+		</lookat>
+            <styleurl>#m_ylw-pushpin</styleurl>
+            <point>
+            <gx:draworder>1</gx:draworder>
+            <coordinates>21.63032342945895,37.63796638303033,0</coordinates>
+		</point>
+	</placemark>
+</document>
+</kml>
+
+
+
+
+        
+
+    </div></xmp>
+    <!--*****************************************************************************************************************************-->
+
+
+
+
+</body>
+</html>
+
+
+

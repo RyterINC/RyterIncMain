@@ -1,0 +1,62 @@
+﻿.discard{
+
+    
+    width:250px;
+    height:250px;
+    margin:5px;
+    border:3px solid;
+    
+
+}
+
+
+#canvas {
+    background-color: white;
+    margin: 1em auto;
+    border: solid
+}
+
+.ball {
+    background-color: black;
+    position: relative;
+    border-radius: 50%;
+}
+
+
+
+/**************************************      Assignment 8 CSS            ****************************************************/
+
+
+.summary{
+    padding-left:70px;
+
+
+}
+
+.Actors{
+    padding-left:120px;
+
+
+}
+
+.use_cases{
+    
+    text-align:center;
+
+
+
+
+}
+
+.UseCase_img{
+    padding-left:70px;
+
+
+}
+
+
+.rules{
+   
+
+
+}
